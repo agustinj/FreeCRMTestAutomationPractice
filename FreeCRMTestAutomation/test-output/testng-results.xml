@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="108872" started-at="2020-11-29T14:23:43Z" finished-at="2020-11-29T14:25:32Z">
+  <suite name="Default suite" duration-ms="103839" started-at="2020-11-29T18:30:08Z" finished-at="2020-11-29T18:31:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="108872" started-at="2020-11-29T14:23:43Z" finished-at="2020-11-29T14:25:32Z">
+    <test name="Default test" duration-ms="103839" started-at="2020-11-29T18:30:08Z" finished-at="2020-11-29T18:31:52Z">
       <class name="com.crm.qa.testcases.TC_Contacts_003">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@10afe71a]" name="setup" is-config="true" duration-ms="23767" started-at="2020-11-29T15:23:45Z" finished-at="2020-11-29T15:24:09Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@754ba872]" name="setup" is-config="true" duration-ms="23371" started-at="2020-11-29T19:30:09Z" finished-at="2020-11-29T19:30:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.TC_Contacts_003@10afe71a]" name="validateCreateNewContact" duration-ms="15993" started-at="2020-11-29T15:24:09Z" data-provider="getCRMTestData" finished-at="2020-11-29T15:24:25Z">
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.TC_Contacts_003@754ba872]" name="validateCreateNewContact" duration-ms="13001" started-at="2020-11-29T19:30:32Z" data-provider="getCRMTestData" finished-at="2020-11-29T19:30:45Z">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateNewContact -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@10afe71a]" name="tearDown" is-config="true" duration-ms="838" started-at="2020-11-29T15:24:25Z" finished-at="2020-11-29T15:24:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@754ba872]" name="tearDown" is-config="true" duration-ms="942" started-at="2020-11-29T19:30:45Z" finished-at="2020-11-29T19:30:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@10afe71a]" name="setup" is-config="true" duration-ms="17450" started-at="2020-11-29T15:24:26Z" finished-at="2020-11-29T15:24:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@754ba872]" name="setup" is-config="true" duration-ms="19235" started-at="2020-11-29T19:30:46Z" finished-at="2020-11-29T19:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.TC_Contacts_003@10afe71a]" name="validateCreateNewContact" duration-ms="13247" started-at="2020-11-29T15:24:43Z" data-provider="getCRMTestData" finished-at="2020-11-29T15:24:57Z">
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.TC_Contacts_003@754ba872]" name="validateCreateNewContact" duration-ms="12893" started-at="2020-11-29T19:31:06Z" data-provider="getCRMTestData" finished-at="2020-11-29T19:31:19Z">
           <params>
             <param index="0">
               <value>
@@ -71,15 +71,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateNewContact -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@10afe71a]" name="tearDown" is-config="true" duration-ms="802" started-at="2020-11-29T15:24:57Z" finished-at="2020-11-29T15:24:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@754ba872]" name="tearDown" is-config="true" duration-ms="894" started-at="2020-11-29T19:31:19Z" finished-at="2020-11-29T19:31:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@10afe71a]" name="setup" is-config="true" duration-ms="17551" started-at="2020-11-29T15:24:57Z" finished-at="2020-11-29T15:25:15Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@754ba872]" name="setup" is-config="true" duration-ms="17853" started-at="2020-11-29T19:31:19Z" finished-at="2020-11-29T19:31:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.TC_Contacts_003@10afe71a]" name="validateCreateNewContact" duration-ms="16104" started-at="2020-11-29T15:25:15Z" data-provider="getCRMTestData" finished-at="2020-11-29T15:25:31Z">
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.TC_Contacts_003@754ba872]" name="validateCreateNewContact" duration-ms="13580" started-at="2020-11-29T19:31:37Z" data-provider="getCRMTestData" finished-at="2020-11-29T19:31:51Z">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateNewContact -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@10afe71a]" name="tearDown" is-config="true" duration-ms="811" started-at="2020-11-29T15:25:31Z" finished-at="2020-11-29T15:25:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TC_Contacts_003@754ba872]" name="tearDown" is-config="true" duration-ms="884" started-at="2020-11-29T19:31:51Z" finished-at="2020-11-29T19:31:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
