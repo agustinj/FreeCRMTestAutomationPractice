@@ -57,7 +57,7 @@ public class TestUtil extends TestBase {
     	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); //Takes screenshot
     	String currentDir = System.getProperty("user.dir"); //Saves screenshot file in desired directory
     	
-    	FileUtils.copyFile(scrFile, new File (currentDir + "/screenshots/" + System.currentTimeMillis() + ".png")); //Screenshot saves in the current project with name format: Time.PNG
+    	FileUtils.copyFile(scrFile, new File (currentDir + "/Screenshots/" + System.currentTimeMillis() + ".png")); //Screenshot saves in the current project with name format: Time.PNG
     	
     }
     
