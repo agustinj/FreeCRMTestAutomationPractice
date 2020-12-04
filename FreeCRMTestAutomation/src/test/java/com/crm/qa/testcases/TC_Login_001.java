@@ -14,7 +14,7 @@ public class TC_Login_001 extends TestBase {
     HomePage homePage;
 
     public TC_Login_001() {
-        super();    //Call super class constructor, to initialize properties file which is used in intialization method
+        super();    //Call super class constructor, to initialize properties file which is used in initialization method
     }
 
     @BeforeMethod
