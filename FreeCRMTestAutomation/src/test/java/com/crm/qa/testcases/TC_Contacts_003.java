@@ -78,7 +78,6 @@ public class TC_Contacts_003 extends TestBase {
     }
     
     
-    
     @AfterMethod
 	public void tearDown() {
 		driver.quit();

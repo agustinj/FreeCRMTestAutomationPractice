@@ -34,7 +34,11 @@ public class HomePage extends TestBase {
 	
 	@FindBy(xpath = "//a[contains(text(),'New Contact')]")
 	@CacheLookup
-	WebElement newContactLink;	
+	WebElement newContactLink;
+	
+	@FindBy(xpath = "//a[contains(text(),'New Deal')]")
+	@CacheLookup
+	WebElement newDealLink;
 	
 	//Initializing Page Objects:
 	public HomePage() {
@@ -70,6 +74,13 @@ public class HomePage extends TestBase {
 		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Contacts')]"))).build().perform();
 		newContactLink.click();		 
+
+	}
+	
+	public void clickOnNewDealLink()  {	
+		Actions action = new Actions(driver);
+		action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Deals')]"))).build().perform();
+		newDealLink.click();	
 
 	}
 	
